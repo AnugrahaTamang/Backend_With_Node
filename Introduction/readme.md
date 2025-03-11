@@ -24,6 +24,7 @@
 - Has a define architecture (MVC and MVVM etc)
 - Django(python)
 -Laravel(php)
+<br>
 2. Unopinonated framework
 -no strict rules or predefined workflow
 -Express.js(node.js)
