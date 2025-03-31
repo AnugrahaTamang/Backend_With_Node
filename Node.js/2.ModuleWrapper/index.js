@@ -7,3 +7,6 @@
 
 import greet from "./one.js";
 greet("Anugraha Tamang", 22); //output: My name is Anugraha Tamang. I am 22 years old.
+
+import SumTwoNum from "./SumOfTwo.js";
+SumTwoNum(2, 2);
