@@ -1,6 +1,6 @@
 # Node.js
 
-Node.js is a open source, cross platform and javascript runtime environment that allows you to run javascript code outside a web browser.Node.js developed by Ryan Dahl in may 2009.
+Node.js is a open source, cross platform and javascript runtime environment that allows you to run javascript code outside a web browser. Node.js developed by Ryan Dahl in may 2009.
 
 # client side script
 
@@ -8,9 +8,9 @@ Node.js is a open source, cross platform and javascript runtime environment that
 - CSS
 - JAVASCRIPT
 
-# server side
+# server side script
 
-Node with express js
+Node.js with Express.js framework
 
 # Node.js is Used to:
 
