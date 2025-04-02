@@ -1,0 +1,16 @@
+{
+  "name": "10.npm",
+  "version": "1.0.0",
+  "description": "- It's the default package manager for Node.js, a javascript runtime environment. NPM is used to install, manage and share packages(library, tools and frameworks) that are port of the Node.js ecosystem.\r - npm install\r - npm uninstall",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
