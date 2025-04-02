@@ -1,0 +1,13 @@
+{
+  "name": "11.nodejs-dependencies",
+  "version": "1.0.0",
+  "description": "1. V8 Engine",
+  "main": "SingleThread.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
