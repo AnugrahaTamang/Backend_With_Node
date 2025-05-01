@@ -16,3 +16,8 @@ customEmitter.once("response", (name, id) => {
   console.log(`user name: ${name}. Id: ${id}`);
 });
 customEmitter.emit("response", "anugraha", 22);
+
+customEmitter.on("greet", () => {
+  console.log("I love Nepal");
+});
+customEmitter.emit("greet"); //emit is like a click event. output: I Love Nepal
