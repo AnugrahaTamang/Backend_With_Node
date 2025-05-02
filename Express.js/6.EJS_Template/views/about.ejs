@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%=title%></title>
+  </head>
+  <body>
+    <h1>This is about the EJS about</h1>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi vitae
+    perferendis quo nihil. Dolore magnam enim modi, voluptatum neque quibusdam
+    quis quia voluptate quasi cum expedita obcaecati architecto vero corporis
+    praesentium quod inventore vitae soluta quas, esse iure dignissimos!
+    Explicabo.
+    <br />
+    <button><%=message%></button>
+    <!-- <% let items = ["apple", "banana", "mango"]%> -->
+    <ul>
+      <% item.forEach(item => {%>
+      <li><%= item%></li>
+      <% })%>
+    </ul>
+    <table border="1" width="400px">
+      <% data.forEach(item => {%>
+      <tr>
+        <td><li type="none"><%= item.name _%></li></td>
+        <td><li type="none"><%= item.age _%></li></td>
+        <td><li type="none"><%= item.location _%></li></td>
+      </tr>
+      <% })%>
+    </table>
+  </body>
+</html>
