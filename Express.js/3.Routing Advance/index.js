@@ -31,3 +31,31 @@ app.get("/search?name&age", (req, res) => {
   res.send(req.params); //localhost://8000/search/name=anugraha & age=22
 });
 app.listen(8000, () => console.log("server up"));
+
+//Advance route with next method
+app.get(
+  "/advance",
+  (req, res, next) => {
+    res.send("I am from advance one");
+    next();
+  },
+  (req, res) => {
+    res.send("I am from advance two");
+  }
+);
+
+//Example two
+const one = (req, res, next) => {
+  res.send("HELLO ONE");
+  next();
+};
+const two = (req, res, next) => {
+  res.send("HELLO TWO");
+  next();
+};
+const three = (req, res, next) => {
+  res.send("HELLO THREE");
+  next();
+};
+
+app.get("/four", [one, two, three]);
